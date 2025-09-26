@@ -15,16 +15,13 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: posts by category
+  - title: posts by category (etc.)
     post_list:
-      category: example2
+      limit: 5
+      category: etc.
       show_more: true
       show_more_text: See more posts...
-      show_more_url: example2-archive.html
-      category: example3
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+      show_more_url: etc.-archive.html
   
   - title: another list
     entries:
