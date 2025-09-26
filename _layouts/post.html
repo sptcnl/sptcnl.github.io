@@ -3,7 +3,6 @@ layout: default
 ---
 
 {%-include back_link.html-%}
-
 <article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
@@ -13,3 +12,10 @@ layout: default
 
   {{ content }}
 </article>
+<script src="https://utteranc.es/client.js"
+        repo="sptcnl/sptcnl.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
